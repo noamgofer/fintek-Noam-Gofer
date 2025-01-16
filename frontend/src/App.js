@@ -39,7 +39,7 @@ const handleFetch = async () => {
     <div className="App">
       <div className='flex-div'>
         <div className='rightSide'>
-          <Logo/>
+          //<Logo/>
           <Header />
           <Input setCity = {setCity} handleFetch = {handleFetch}/>
           {message && <div className='error-message'><p>{message}</p></div>} 
